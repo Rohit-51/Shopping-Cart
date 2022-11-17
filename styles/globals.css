@@ -1,9 +1,77 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    display: flex;
+}
+
+*{
+  margin:1px;
+  background-color: rgb(251, 248, 248);
+}
+
+.hide-content {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+
+/* .hide-content:hover {
+  width: 150px;
+  -webkit-line-clamp: 6;
+} */
+
+.det {
+  /* border: 1px solid black; */
+  padding: 5px;
+  justify-content: center;
+  margin: 0px 60px;
+  width: 100px
+}
+
+/* .wid:hover{
+  width: 200px;
+} */
+
+.exp{
+  display: flex;
+    justify-content: center;
+    width: 78%;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+img {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  /* position: relative; */
+}
+
+nav {
+  background-color: aqua;
+  border-radius: 5px;
+}
+.btn {
+  background-color: yellow;
+  border:0ch;
+  border-radius: 3px;
+  color: gray;
+  height: 25px;
+  width: 50px;
+}
+
+span {
+  font-size:small;
+  color: rgb(29, 16, 217);
+  cursor: pointer;
 }
 
 a {
